@@ -25,6 +25,7 @@ if valid_move?(board, position)
 else
 puts "ask for the input_to_index"
 end
+end
 
 def valid_move?(board, position)
   if !position_taken(board, position) && position.between?(0,8)
