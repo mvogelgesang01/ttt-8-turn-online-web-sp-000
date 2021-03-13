@@ -20,6 +20,10 @@ def turn(board)
   input = gets.strip
   index = input_to_index(input)
   valid_move?(board, index)
+if valid_move?(board, position)
+  puts "the move for the input_to_index"
+else
+puts "ask for the input_to_index"
 end
 
 def valid_move?(board, position)
